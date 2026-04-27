@@ -1,3 +1,4 @@
+<img width="1002" height="998" alt="截屏2026-04-27 11 37 30" src="https://github.com/user-attachments/assets/28b8279f-b466-45ee-bc5e-a7cd25f615ca" />
 # Redesign to Mechanism: Interpretable AI Reveals Determinants of Protein Hydrate Binding
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -5,3 +6,4 @@
 
 ## Overview
 Natural antifreeze proteins (AFPs) demonstrate exquisite structure-function relationships, while in silico designs often struggle to achieve a balance between structural stability, expression efficiency, and functional activity. This study establishes a computational framework integrating deep learning, molecular dynamics simulations, and interpretable machine learning for the rational design of AFPs. The Chill+ algorithm showed that 83.4% of the designed peptides exhibited superior hydrate inhibition activity relative to wild-type Tenebrio molitor AFP (TmAFP). XGBoost and SHAP analysis revealed that spatially defined structural features more accurately predicted inhibitory activity than statistical sequence features. Asn29 stabilizes the hydrate lattice via bifunctional hydrogen bonding and hydrophobic guest mimicry, while Ser4-Ile17 mutations optimize hydrophilic water ordering and hydrophobic anchoring. Val mutations further revealed two functional regions within the hydrate-binding site, an ordered anchoring region and a dynamic perturbation region. This work establishes an interpretable, generalizable framework for engineering high-performance AFPs.
+<img width="1002" height="998" alt="截屏2026-04-27 11 37 42" src="https://github.com/user-attachments/assets/4b5b8b04-9700-4ac3-9cba-b9d6cfb4a882" />
