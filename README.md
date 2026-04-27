@@ -15,14 +15,14 @@ This CSV file contains the dataset used for model training and evaluation.
 | Column          | Description                                                       |
 |-----------------|-------------------------------------------------------------------|
 | `protein_name`  | Identifier for each protein variant (e.g., `1EZG`, `P1`–`P96`)   |
-| `activity_score`| Experimentally measured antifreeze activity score (0–1 scale)     |
+| `activity_score`| Experimentally measured antifreeze percentage of hydrate (0–1 scale)     |
 | `sequence`      | Full amino acid sequence of the protein variant                   |
 
 - **Wild-type:** `1EZG` — derived from PDB structure [1EZG](https://www.rcsb.org/structure/1EZG)
 - **Variants:** 96+ designed mutants (`P1`–`P96`) and additional variants with `_C` / `_NC` suffixes (e.g., `P36_C`, `P46_NC`)
-- **Total samples:** 121 protein sequences with corresponding activity scores
+- **Total samples:** 121 protein sequences with corresponding percentage of hydrate
 ## Code
 
 **File:** `code/TmAFP.ipynb`
 
-A Jupyter Notebook implementing the complete machine-learning pipeline for TmAFP activity prediction.
+A Jupyter Notebook implementing a complete machine learning pipeline for predicting TmAFP hydrate percentages.
