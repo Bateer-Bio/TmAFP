@@ -1,4 +1,3 @@
-<img width="1002" height="998" alt="截屏2026-04-27 11 37 30" src="https://github.com/user-attachments/assets/28b8279f-b466-45ee-bc5e-a7cd25f615ca" />
 # Redesign to Mechanism: Interpretable AI Reveals Determinants of Protein Hydrate Binding
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
