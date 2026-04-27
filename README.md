@@ -8,8 +8,21 @@ Natural antifreeze proteins (AFPs) demonstrate exquisite structure-function rela
 <img width="1002" height="998" alt="截屏2026-04-27 11 37 42" src="https://github.com/user-attachments/assets/4b5b8b04-9700-4ac3-9cba-b9d6cfb4a882" />
 ## Data
 
-- **`1ezgdata.csv`**: Contains structural/coordinate data of TmAFP extracted from the PDB structure [1EZG](https://www.rcsb.org/structure/1EZG).
+**File:** `data/1ezgdata.csv`
 
+This CSV file contains the dataset used for model training and evaluation.
+
+| Column          | Description                                                       |
+|-----------------|-------------------------------------------------------------------|
+| `protein_name`  | Identifier for each protein variant (e.g., `1EZG`, `P1`–`P96`)   |
+| `activity_score`| Experimentally measured antifreeze activity score (0–1 scale)     |
+| `sequence`      | Full amino acid sequence of the protein variant                   |
+
+- **Wild-type:** `1EZG` — derived from PDB structure [1EZG](https://www.rcsb.org/structure/1EZG)
+- **Variants:** 96+ designed mutants (`P1`–`P96`) and additional variants with `_C` / `_NC` suffixes (e.g., `P36_C`, `P46_NC`)
+- **Total samples:** 121 protein sequences with corresponding activity scores
 ## Code
 
-- **`TmAFP.ipynb`**: A Jupyter Notebook that performs the main analysis pipeline, including data processing, structural analysis, and visualization of TmAFP.
+**File:** `code/TmAFP.ipynb`
+
+A Jupyter Notebook implementing the complete machine-learning pipeline for TmAFP activity prediction.
